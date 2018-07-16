@@ -1,0 +1,9 @@
+<fieldset>
+<legend>Register a restaurant</legend>
+Restaurant Name:<br>
+<input #name><br>
+Cuisine:<br>
+<input #cuisine><br>
+<button class='cancel' (click)='cancel()'>Cancel</button>
+<button class='yes' (click)='register(name.value, cuisine.value)'>Register</button>
+</fieldset>
